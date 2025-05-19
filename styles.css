@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background: url('chrome2.png') no-repeat center center fixed;
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+}
+.container {
+  max-width: 600px;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #c9a3ff;
+}
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.download-btn, .nav-buttons a, button {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.8rem 1.2rem;
+  background: #8f5ad9;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+.download-btn:hover, .nav-buttons a:hover, button:hover {
+  background: #b389ff;
+}
+form input, form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+form textarea {
+  height: 120px;
+  resize: none;
+}
+button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+}
+.nav-buttons {
+  margin-top: 2rem;
+}
